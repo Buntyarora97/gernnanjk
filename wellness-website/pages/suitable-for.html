@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Für wen ist meine Arbeit geeignet? Erfahren Sie, ob mein ganzheitlicher Ansatz für Sie passt.">
+    <title>Für wen ist meine Arbeit geeignet? | Holistic Wellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                    <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                    <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                    <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <p class="preloader-text">Holistic Wellness</p>
+        </div>
+    </div>
+
+    <!-- Language Sidebar -->
+    <div class="language-sidebar">
+        <a href="#" class="lang-btn" data-lang="en" title="English"><span>EN</span></a>
+        <a href="#" class="lang-btn active" data-lang="de" title="Deutsch"><span>DE</span></a>
+        <a href="#" class="lang-btn" data-lang="fr" title="Français"><span>FR</span></a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                            <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                            <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                            <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Holistic Wellness</span>
+                </a>
+
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-link">Startseite</a></li>
+                        <li><a href="suitable-for.html" class="nav-link active">Für wen?</a></li>
+                        <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+                        <li><a href="methods.html" class="nav-link">Methoden</a></li>
+                        <li><a href="testimonials.html" class="nav-link">Erfahrungen</a></li>
+                        <li><a href="about.html" class="nav-link">Über Mich</a></li>
+                        <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+                    </ul>
+                </nav>
+
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile">
+        <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Startseite</a></li>
+            <li><a href="suitable-for.html" class="nav-link">Für wen?</a></li>
+            <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+            <li><a href="methods.html" class="nav-link">Methoden</a></li>
+            <li><a href="testimonials.html" class="nav-link">Erfahrungen</a></li>
+            <li><a href="about.html" class="nav-link">Über Mich</a></li>
+            <li><a href="legal.html" class="nav-link">Rechtliches</a></li>
+            <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+        </ul>
+    </nav>
+    <div class="mobile-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 120px;">
+        <div class="bg-blob bg-blob-1"></div>
+        <div class="container">
+            <div class="text-center reveal">
+                <h1 class="hero-title" data-i18n="suitable_hero_title">Für wen ist meine Arbeit geeignet?</h1>
+                <p class="hero-subtitle" style="max-width: 700px; margin: 0 auto;" data-i18n="suitable_intro">
+                    Mein ganzheitlicher Ansatz ist für Menschen geeignet, die ihr Wohlbefinden unterstützen und mehr Balance in ihrem Leben finden möchten.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Cards -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="audience-grid">
+                <div class="audience-card reveal stagger-1">
+                    <div class="audience-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="suitable_card_1_title">Stress und innere Unruhe</h3>
+                    <p class="audience-desc" data-i18n="suitable_card_1_desc">Sie fühlen sich gestresst, haben innere Unruhe oder fühlen sich von den Anforderungen des Alltags überfordert.</p>
+                </div>
+                
+                <div class="audience-card reveal stagger-2">
+                    <div class="audience-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="suitable_card_2_title">Emotionale Belastungen</h3>
+                    <p class="audience-desc" data-i18n="suitable_card_2_desc">Sie tragen emotionale Lasten oder fühlen seelischen Druck. Sie möchten gerne Erlebnisse verarbeiten.</p>
+                </div>
+                
+                <div class="audience-card reveal stagger-3">
+                    <div class="audience-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="suitable_card_3_title">Körperliche Beschwerden</h3>
+                    <p class="audience-desc" data-i18n="suitable_card_3_desc">Sie erleben körperliche Beschwerden oder Verspannungen ohne eindeutige medizinische Ursache.</p>
+                </div>
+                
+                <div class="audience-card reveal stagger-4">
+                    <div class="audience-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="suitable_card_4_title">Erschöpfung</h3>
+                    <p class="audience-desc" data-i18n="suitable_card_4_desc">Sie fühlen sich erschöpft oder haben das Gefühl, keine Energie mehr zu haben.</p>
+                </div>
+                
+                <div class="audience-card reveal stagger-5">
+                    <div class="audience-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="audience-title" data-i18n="suitable_card_5_title">Suche nach Klarheit</h3>
+                    <p class="audience-desc" data-i18n="suitable_card_5_desc">Sie suchen nach mehr Klarheit, Balance und innerer Stärke. Sie möchten sich persönlich weiterentwickeln.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--sage-green) 0%, var(--sage-green-light) 100%);">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 style="color: white; margin-bottom: var(--space-md);" data-i18n="suitable_cta_title">Erkennen Sie sich wieder?</h2>
+                <p style="color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto var(--space-xl);" data-i18n="suitable_cta_text">
+                    Ich lade Sie zu einem kostenlosen Erstgespräch ein, in dem wir Ihre individuelle Situation besprechen.
+                </p>
+                <a href="../index.html#booking" class="btn btn-gold btn-pulse btn-magnetic" style="font-size: 1.1rem;" data-i18n="suitable_cta_button">
+                    Termin vereinbaren
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-title">Holistic Wellness</h3>
+                    <p class="footer-text" data-i18n="hero_subtitle">Durch energetische Arbeit, Mentaltraining und Hypnose-Coaching begleite ich Sie dabei, mehr Balance, Klarheit und innere Stärke zu finden.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Links</h4>
+                    <div class="footer-links">
+                        <a href="../index.html" class="footer-link">Startseite</a>
+                        <a href="suitable-for.html" class="footer-link">Für wen?</a>
+                        <a href="approach.html" class="footer-link">Mein Ansatz</a>
+                        <a href="methods.html" class="footer-link">Methoden</a>
+                        <a href="testimonials.html" class="footer-link">Erfahrungen</a>
+                        <a href="about.html" class="footer-link">Über Mich</a>
+                    </div>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 class="footer-title">Kontakt</h4>
+                    <p class="footer-text">Sample Street 123<br>5020 Salzburg, Austria<br>+43 XXX XXX XXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Holistic Wellness. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner">
+        <div class="cookie-inner">
+            <p class="cookie-text">Diese Website verwendet Cookies.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept">Akzeptieren</button>
+                <button class="cookie-btn cookie-btn-decline">Ablehnen</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/43XXXXXXXXX" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/i18n.js"></script>
+</body>
+</html>

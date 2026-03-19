@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rechtliches, Datenschutz und Impressum.">
+    <title>Rechtliches | Holistic Wellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                    <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                    <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                    <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <p class="preloader-text">Holistic Wellness</p>
+        </div>
+    </div>
+
+    <div class="language-sidebar">
+        <a href="#" class="lang-btn" data-lang="en" title="English"><span>EN</span></a>
+        <a href="#" class="lang-btn active" data-lang="de" title="Deutsch"><span>DE</span></a>
+        <a href="#" class="lang-btn" data-lang="fr" title="Français"><span>FR</span></a>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                            <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                            <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                            <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Holistic Wellness</span>
+                </a>
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-link">Startseite</a></li>
+                        <li><a href="suitable-for.html" class="nav-link">Für wen?</a></li>
+                        <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+                        <li><a href="methods.html" class="nav-link">Methoden</a></li>
+                        <li><a href="testimonials.html" class="nav-link">Erfahrungen</a></li>
+                        <li><a href="about.html" class="nav-link">Über Mich</a></li>
+                        <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-mobile">
+        <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Startseite</a></li>
+            <li><a href="suitable-for.html" class="nav-link">Für wen?</a></li>
+            <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+            <li><a href="methods.html" class="nav-link">Methoden</a></li>
+            <li><a href="testimonials.html" class="nav-link">Erfahrungen</a></li>
+            <li><a href="about.html" class="nav-link">Über Mich</a></li>
+            <li><a href="legal.html" class="nav-link">Rechtliches</a></li>
+            <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+        </ul>
+    </nav>
+    <div class="mobile-overlay"></div>
+
+    <section class="hero" style="min-height: 50vh; padding-top: 120px;">
+        <div class="bg-blob bg-blob-1"></div>
+        <div class="container">
+            <div class="text-center reveal">
+                <h1 class="hero-title" data-i18n="legal_hero_title">Rechtliches & Haftungsausschluss</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card legal-warning reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                    </svg>
+                    <span data-i18n="legal_disclaimer_title">Medizinischer Haftungsausschluss</span>
+                </h3>
+                <p data-i18n="legal_disclaimer_text">Die angebotenen Dienstleistungen werden im Bereich der Humanenergetik zur Unterstützung der energetischen Balance erbracht. Diese Begleitung ersetzt keine medizinische Behandlung.</p>
+                <p style="margin-top: var(--space-md); margin-bottom: 0;" data-i18n="legal_disclaimer_2">Bei gesundheitlichen Beschwerden konsultieren Sie bitte einen Arzt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-cream legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span data-i18n="legal_scope_title">Tätigkeitsbereich</span>
+                </h3>
+                <p data-i18n="legal_scope_text">Als Humanenergetikerin arbeite ich im Bereich des energetischen Ausgleichs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                    </svg>
+                    <span data-i18n="legal_terms_title">Verwendete Terminologie</span>
+                </h3>
+                <p data-i18n="legal_terms_text">Ich verwende: Begleitung, Balance, Beratung, Wohlbefinden, Entspannung.</p>
+                <p style="margin-top: var(--space-lg); padding: var(--space-md); background: rgba(212, 175, 55, 0.1); border-radius: var(--radius-sm);" data-i18n="legal_terms_avoid">Folgende Begriffe werden vermieden: Heilung, Behandlung, Therapie, Diagnose.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="privacy" class="section section-cream legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                    </svg>
+                    <span data-i18n="legal_privacy_title">Datenschutz</span>
+                </h3>
+                <p data-i18n="legal_privacy_text">Der Schutz Ihrer Daten ist mir wichtig. Ich verarbeite Daten nach DSGVO.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <span data-i18n="legal_imprint_title">Impressum</span>
+                </h3>
+                <div style="margin-top: var(--space-lg);">
+                    <p style="margin-bottom: var(--space-md);"><strong data-i18n="legal_imprint_name">Ganzheitliche Wellness-Praxis</strong><br><span data-i18n="legal_imprint_address">Musterstraße 123, 5020 Salzburg, Österreich</span></p>
+                    <p style="margin-bottom: var(--space-md);" data-i18n="legal_imprint_contact">E-Mail: kontakt@wellness-praxis.at</p>
+                    <p style="margin-bottom: 0;" data-i18n="legal_imprint_vat">UID: ATU XXXXXXXX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-cream legal-section">
+        <div class="container container-narrow">
+            <div class="legal-card reveal">
+                <h3 class="legal-card-title">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.88 9.14c1.28.06 1.61 1.15 1.63 1.66h1.79c-.08-1.98-1.49-3.19-3.45-3.19C9.64 7.61 8 9 8 12.5c0 3.44 1.62 4.89 3.86 4.89 1.86 0 3.17-1.18 3.4-3.09h-1.81c-.13 1.15-.78 1.68-1.58 1.68-1.11 0-1.58-.89-1.58-2.48 0-2.31.66-2.97 1.56-2.97zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    </svg>
+                    <span data-i18n="legal_copyright_title">Urheberrecht</span>
+                </h3>
+                <p data-i18n="legal_copyright_text">Alle Inhalte sind urheberrechtlich geschützt.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-title">Holistic Wellness</h3>
+                    <p class="footer-text">Durch energetische Arbeit begleite ich Sie.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Links</h4>
+                    <div class="footer-links">
+                        <a href="../index.html" class="footer-link">Startseite</a>
+                        <a href="suitable-for.html" class="footer-link">Für wen?</a>
+                        <a href="approach.html" class="footer-link">Mein Ansatz</a>
+                        <a href="methods.html" class="footer-link">Methoden</a>
+                    </div>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 class="footer-title">Kontakt</h4>
+                    <p class="footer-text">Sample Street 123<br>5020 Salzburg, Austria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Holistic Wellness. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookie-banner">
+        <div class="cookie-inner">
+            <p class="cookie-text">Diese Website verwendet Cookies.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept">Akzeptieren</button>
+                <button class="cookie-btn cookie-btn-decline">Ablehnen</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/43XXXXXXXXX" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erfahrungen und Testimonials von Klienten.">
+    <title>Erfahrungen | Holistic Wellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                    <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                    <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                    <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <p class="preloader-text">Holistic Wellness</p>
+        </div>
+    </div>
+
+    <div class="language-sidebar">
+        <a href="#" class="lang-btn" data-lang="en" title="English"><span>EN</span></a>
+        <a href="#" class="lang-btn active" data-lang="de" title="Deutsch"><span>DE</span></a>
+        <a href="#" class="lang-btn" data-lang="fr" title="Français"><span>FR</span></a>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#8B9A7B" stroke-width="2"/>
+                            <path d="M50 15 C30 15, 15 30, 15 50 C15 70, 30 85, 50 85 C70 85, 85 70, 85 50 C85 30, 70 15, 50 15 Z M50 25 C65 25, 75 35, 75 50 C75 65, 65 75, 50 75 C35 75, 25 65, 25 50 C25 35, 35 25, 50 25 Z" fill="#8B9A7B"/>
+                            <circle cx="50" cy="50" r="15" fill="#8B9A7B"/>
+                            <path d="M50 35 L50 50 L60 60" stroke="#F5F1E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Holistic Wellness</span>
+                </a>
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-link">Startseite</a></li>
+                        <li><a href="suitable-for.html" class="nav-link">Für wen?</a></li>
+                        <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+                        <li><a href="methods.html" class="nav-link">Methoden</a></li>
+                        <li><a href="testimonials.html" class="nav-link active">Erfahrungen</a></li>
+                        <li><a href="about.html" class="nav-link">Über Mich</a></li>
+                        <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-mobile">
+        <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link">Startseite</a></li>
+            <li><a href="suitable-for.html" class="nav-link">Für wen?</a></li>
+            <li><a href="approach.html" class="nav-link">Mein Ansatz</a></li>
+            <li><a href="methods.html" class="nav-link">Methoden</a></li>
+            <li><a href="testimonials.html" class="nav-link">Erfahrungen</a></li>
+            <li><a href="about.html" class="nav-link">Über Mich</a></li>
+            <li><a href="legal.html" class="nav-link">Rechtliches</a></li>
+            <li><a href="../index.html#booking" class="nav-link nav-cta">Termin Buchen</a></li>
+        </ul>
+    </nav>
+    <div class="mobile-overlay"></div>
+
+    <section class="hero" style="min-height: 60vh; padding-top: 120px;">
+        <div class="bg-blob bg-blob-1"></div>
+        <div class="container">
+            <div class="text-center reveal">
+                <div class="testimonial-stars" style="justify-content: center; margin-bottom: var(--space-md);">
+                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </div>
+                <h1 class="hero-title" data-i18n="testimonials_hero_title">Erfahrungen / Testimonials</h1>
+                <p class="hero-subtitle" style="max-width: 700px; margin: 0 auto;" data-i18n="testimonials_intro">Lesen Sie, was Klienten über ihre Erfahrungen mit meiner Arbeit sagen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal stagger-1">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_full_1">"Ich war sehr erschöpft und fühlte innerliche Unruhe. Bereits nach wenigen Sitzungen fühlte ich mich deutlich ruhiger und stabiler."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">S</div>
+                        <div>
+                            <p class="testimonial-name" data-i18n="testimonial_author_1">Frau, 42</p>
+                            <p class="testimonial-topic" data-i18n="testimonial_topic_1">Stress & innere Ruhe</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card reveal stagger-2">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_full_2">"Ich hätte nie gedacht, dass sich meine innere Balance so schnell verbessert. Ich fühle mich klarer und ausgeglichener."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">M</div>
+                        <div>
+                            <p class="testimonial-name" data-i18n="testimonial_author_2">Mann, 38</p>
+                            <p class="testimonial-topic" data-i18n="testimonial_topic_2">Klarheit & Balance</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card reveal stagger-3">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_full_3">"Die Sitzungen halfen mir, loszulassen und ein Gefühl von Leichtigkeit wiederzuentdecken."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">A</div>
+                        <div>
+                            <p class="testimonial-name" data-i18n="testimonial_author_3">Frau, 29</p>
+                            <p class="testimonial-topic" data-i18n="testimonial_topic_3">Loslassen & neue Energie</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card reveal stagger-4">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_full_4">"Ich kam mit chronischen Verspannungen. Durch den ganzheitlichen Ansatz konnte ich mich deutlich verbessern."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">T</div>
+                        <div>
+                            <p class="testimonial-name" data-i18n="testimonial_author_4">Mann, 45</p>
+                            <p class="testimonial-topic" data-i18n="testimonial_topic_4">Verspannungen</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card reveal stagger-5">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_full_5">"Die einfühlsame Begleitung hat mir durch eine schwierige Phase geholfen."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">K</div>
+                        <div>
+                            <p class="testimonial-name" data-i18n="testimonial_author_5">Frau, 52</p>
+                            <p class="testimonial-topic" data-i18n="testimonial_topic_5">Begleitung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center reveal" style="margin-top: var(--space-2xl); padding: var(--space-lg); background: var(--soft-cream); border-radius: var(--radius-md);">
+                <p style="color: var(--deep-forest-light); font-size: 0.9rem; margin: 0;" data-i18n="testimonials_disclaimer">
+                    Diese Erfahrungsberichte spiegeln die persönlichen Erfahrungen einzelner Klienten wider.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-title">Holistic Wellness</h3>
+                    <p class="footer-text">Durch energetische Arbeit begleite ich Sie.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-title">Links</h4>
+                    <div class="footer-links">
+                        <a href="../index.html" class="footer-link">Startseite</a>
+                        <a href="suitable-for.html" class="footer-link">Für wen?</a>
+                        <a href="approach.html" class="footer-link">Mein Ansatz</a>
+                        <a href="methods.html" class="footer-link">Methoden</a>
+                    </div>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 class="footer-title">Kontakt</h4>
+                    <p class="footer-text">Sample Street 123<br>5020 Salzburg, Austria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Holistic Wellness. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookie-banner">
+        <div class="cookie-inner">
+            <p class="cookie-text">Diese Website verwendet Cookies.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept">Akzeptieren</button>
+                <button class="cookie-btn cookie-btn-decline">Ablehnen</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/43XXXXXXXXX" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/i18n.js"></script>
+</body>
+</html>
